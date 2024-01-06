@@ -25,13 +25,13 @@ const calculateDate = () => {
     let ageDate = new Date(ageDifference);
     let ageYears = ageDate.getUTCFullYear() - 1970;
     let ageMonth = ageDate.getUTCMonth();
-    let ageDay = ageDate.getUTCDate() - 1;
+    let ageDay = ageDate.getUTCDate();
     outputYear.textContent = ageYears;
     outputMonth.textContent = ageMonth;
     outputDay.textContent = ageDay;
     console.log(birthday);
   } else {
-    alert(error);
+    alert("error");
   }
 };
 submit_btn.addEventListener("click", calculateDate);
