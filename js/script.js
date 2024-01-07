@@ -25,7 +25,7 @@ const calculateDate = () => {
     let ageDate = new Date(ageDifference);
     let ageYears = ageDate.getUTCFullYear() - 1970;
     let ageMonth = ageDate.getUTCMonth();
-    let ageDay = ageDate.getUTCDate();
+    let ageDay = ageDate.getUTCDate() - 1;
     outputYear.textContent = ageYears;
     outputMonth.textContent = ageMonth;
     outputDay.textContent = ageDay;
