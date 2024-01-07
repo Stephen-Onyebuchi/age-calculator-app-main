@@ -793,26 +793,6 @@ small {
     padding: 2.5rem;
   }
 
-  .md\:p-1 {
-    padding: 0.25rem;
-  }
-
-  .md\:pr-40 {
-    padding-right: 10rem;
-  }
-
-  .md\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
-  .md\:pr-20 {
-    padding-right: 5rem;
-  }
-
-  .md\:pr-28 {
-    padding-right: 7rem;
-  }
-
   .md\:pr-24 {
     padding-right: 6rem;
   }

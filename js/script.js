@@ -19,7 +19,9 @@ const submit_btn = document.querySelector(".submit-btn");
 
 const calculateDate = () => {
   if (ifValid) {
-    let birthday = `${inputMonth.value} / ${inputDay.value} / ${inputYear.value}`;
+    let birthday = `${Number(inputMonth.value)} / ${Number(
+      inputDay.value
+    )} / ${Number(inputYear.value)}`;
     let birthdayObj = new Date(birthday);
     let ageDifference = Date.now() - birthdayObj;
     let ageDate = new Date(ageDifference);
