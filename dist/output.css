@@ -590,22 +590,6 @@ video {
   right: auto;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
-.-mt-0 {
-  margin-top: -0px;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
-}
-
 .flex {
   display: flex;
 }
@@ -703,11 +687,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -814,8 +793,28 @@ small {
     padding: 2.5rem;
   }
 
+  .md\:p-1 {
+    padding: 0.25rem;
+  }
+
   .md\:pr-40 {
     padding-right: 10rem;
+  }
+
+  .md\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .md\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .md\:pr-28 {
+    padding-right: 7rem;
+  }
+
+  .md\:pr-24 {
+    padding-right: 6rem;
   }
 
   .md\:text-6xl {
